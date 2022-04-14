@@ -1,0 +1,108 @@
+*{
+    background-color: beige;
+    font-family: Arial, Helvetica, Verdana, 'Times New Roman', Times, serif;
+}
+.navbar{
+    background-color: black;
+    padding: 50px;
+}
+.navbar-left{
+    background-color: black;
+    font-size: x-large;
+    float: left;
+}
+.navbar-right{
+    background-color: black;
+    font-size: x-large;
+    float: right;
+    text-decoration: underline;
+}
+.navbar-left a{
+    background-color: black;
+    color: white;
+}
+.navbar-right a{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.navbar-left a:link{
+    text-decoration: none;
+}
+.navbar-right a:link{
+    text-decoration: none;
+}
+.navbar-left a:hover{
+background-color: gray;
+}
+.navbar-right a:hover{
+background-color: gray;
+}
+.avatar{
+display: block;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+width: 25%;
+}
+body h2{
+    text-align: center;
+}
+.resume{
+    line-height: 19px;
+    text-align: left;
+}
+.company{
+    display: inline;
+    float: right;
+}
+.container {
+    position: relative;
+  }
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.column{
+    padding: 45px;
+    flex: 25%;
+    max-width: 25%;
+}
+.column img {
+    margin-top: 10px;
+    justify-content: center;
+    width: 100%;
+  }
+.foot{
+    display: block;
+  }
+.foot ul{
+    width: 100%;
+}
+.foot li{
+    justify-content: center;
+    display: inline;
+    width: 100%;
+    padding: 20px;
+    font-weight: bold;
+}
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 55%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
